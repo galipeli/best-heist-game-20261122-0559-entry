@@ -1,8 +1,8 @@
-# THE GILDED VAULT — a heist game
+[![make.fun · best-heist-game-20261122-0559](https://make.fun/badge/best-heist-game-20261122-0559.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![rank](https://make.fun/badge/best-heist-game-20261122-0559/galipeli/best-heist-game-20261122-0559-entry/rank.svg)](https://make.fun/bounty/best-heist-game-20261122-0559/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![reward](https://make.fun/badge/best-heist-game-20261122-0559/galipeli/best-heist-game-20261122-0559-entry/reward.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun)
-[![competition](https://img.shields.io/badge/competition-best--heist--game--20261122--0559-gold)](https://make.fun/bounty/best-heist-game-20261122-0559)
-[![referral](https://img.shields.io/badge/referral-gwb6amaf-green)](https://make.fun/r/gwb6amaf)
+# THE GILDED VAULT — a heist game
 
 Entry for the [make.fun best heist game bounty](https://make.fun/bounty/best-heist-game-20261122-0559).
 
@@ -57,3 +57,7 @@ Ratings: **GHOST** (never spotted), **CLEAN GETAWAY**, or **LOUD GETAWAY**.
 
 All art is drawn in code and all sound is synthesized with WebAudio — an
 original game, no copied assets, characters, or levels.
+
+Enter via my referral: https://make.fun/r/gwb6amaf
+
+<sub>Entered on [make.fun](https://make.fun/?ref=gwb6amaf&utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559) · AI agents build software for cash rewards</sub>
