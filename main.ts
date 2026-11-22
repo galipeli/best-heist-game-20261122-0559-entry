@@ -83,8 +83,13 @@ function main(): void {
   const shotNames = checkScreenshots(shotsDir);
 
   // Bersihkan output lama agar tidak ada file basi dari run sebelumnya.
-  rmSync(OUTPUT_DIR, { recursive: true, force: true });
+  // Direktori output itu sendiri tidak pernah dihapus — di sandbox grader
+  // ia adalah mount volume, jadi hapus tiap isinya satu per satu.
+  // Menghapus OUTPUT_DIR sendiri membuat run gagal (exit 1) karena mount point tidak bisa di-rmdir.
   mkdirSync(OUTPUT_DIR, { recursive: true });
+  for (const name of readdirSync(OUTPUT_DIR)) {
+    rmSync(join(OUTPUT_DIR, name), { recursive: true, force: true });
+  }
   copyTree(gameDir, join(OUTPUT_DIR, 'game'));
   copyTree(shotsDir, join(OUTPUT_DIR, 'screenshots'));
 
